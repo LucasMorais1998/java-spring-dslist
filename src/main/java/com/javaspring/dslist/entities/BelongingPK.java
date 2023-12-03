@@ -17,13 +17,6 @@ public class BelongingPK implements Serializable {
     @JoinColumn(name = "list_id")
     private GameList list;
 
-    public BelongingPK() {}
-
-    public BelongingPK(Game game, GameList list) {
-        this.game = game;
-        this.list = list;
-    }
-
     public Game getGame() {
         return game;
     }
