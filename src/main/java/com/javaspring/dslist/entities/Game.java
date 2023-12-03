@@ -1,7 +1,6 @@
 package com.javaspring.dslist.entities;
 
 import jakarta.persistence.*;
-import org.springframework.context.annotation.Primary;
 
 import java.util.Objects;
 
